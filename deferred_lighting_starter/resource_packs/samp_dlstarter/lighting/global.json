@@ -59,11 +59,11 @@
       "desaturation": 0.11
     },
     "ambient": {
-      "color": "#FFFFFF",
-      "illuminance": 0.05
+      "color": "24, 59, 113",
+      "illuminance": 0.3
     },
     "sky": {
-      "intensity": 0.2
+      "intensity": 0.4
     }
   }
 }
