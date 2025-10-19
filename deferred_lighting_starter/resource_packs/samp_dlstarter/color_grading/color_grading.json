@@ -2,24 +2,31 @@
   "format_version": "1.21.90",
   "minecraft:color_grading_settings": {
     "description": {
-      "identifier": "sample:custom_color_grading"
+      "identifier": "sample_custom_color_grading"
     },
     "color_grading": {
       "midtones": {
-        "contrast": [1.3, 1.3, 1.3],
-        "gain": [1.0, 1.0, 1.0],
-        "gamma": [2.2, 2.2, 2.2],
+        // Tăng Contrast để làm nổi bật vùng sáng/tối và tăng cường độ sắc nét
+        "contrast": [1.4, 1.4, 1.4],
+        
+        // Tăng Gain và Gamma nhẹ để làm sáng tổng thể và tăng độ rực rỡ
+        "gain": [1.05, 1.05, 1.05],
+        "gamma": [2.1, 2.1, 2.1], 
+        
         "offset": [0.0, 0.0, 0.0],
-        "saturation": [1.05, 1.05, 1.05]
-      },
-      "temperature": {
-        "enabled": true,
-        "temperature": 6500,
-        "type": "color_temperature"
+        
+        // **Đây là tham số quan trọng nhất:** Tăng Saturation cao để có màu cỏ và bầu trời rực rỡ như ảnh mẫu.
+        "saturation": [1.25, 1.25, 1.25] 
       }
     },
+    "temperature": {
+      "enabled": true,
+      // Giữ nhiệt độ màu hơi cao (khoảng 6500-7000) để giữ bầu trời xanh mát và ánh sáng tự nhiên.
+      "temperature": 6800,
+      "type": "color_temperature"
+    },
     "tone_mapping": {
-      "operator": "generic"
+      "operator": "aces"
     }
   }
 }
