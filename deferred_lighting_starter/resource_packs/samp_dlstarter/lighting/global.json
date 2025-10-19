@@ -8,7 +8,7 @@
       "orbital": {
         "sun": {
           "illuminance": {
-            "0.0": , // noon
+            "0.0": ,90 // noon
             "0.23": 30, // pre-sunset
             "0.24": 20, // pre-sunset
             "0.25": 1, // pre-sunset
@@ -18,8 +18,8 @@
             "0.75": 15, // day-transition
             "0.82": 60, // sunrise
             "0.85": 80, // sunrise
-            "0.92": 150, // day
-            "1.0": 180 // noon
+            "0.92": 80, // day
+            "1.0": 90 // noon
           },
           "color": {
             "0.0": [1.4,0.7,0.3],  // noon (Màu vàng nhạt, ấm áp)
