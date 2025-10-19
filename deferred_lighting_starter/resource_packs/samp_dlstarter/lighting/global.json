@@ -8,33 +8,32 @@
       "orbital": {
         "sun": {
           "illuminance": {
-            "0.0": 85, // noon
-            "0.23": 70, // pre-sunset
-            "0.24": 65, // pre-sunset
-            "0.25": 50, // pre-sunset
+            "0.0": 180, // noon
+            "0.23": 100, // pre-sunset
+            "0.24": 80, // pre-sunset
+            "0.25": 60, // pre-sunset
             "0.26": 15, // sunset
             "0.3": 0, // night
             "0.5": 0, // midnight
             "0.75": 15, // day-transition
-            "0.82": 50, // sunrise
-            "0.85": 65, // sunrise
-            "0.92": 70, // day
-            "1.0": 85 // noon
+            "0.82": 60, // sunrise
+            "0.85": 80, // sunrise
+            "0.92": 150, // day
+            "1.0": 180 // noon
           },
           "color": {
-          "0.0": 85, // noon
-            "0.23": 70, // pre-sunset
-            "0.24": 65, // pre-sunset
-            "0.25": 50, // pre-sunset
-            "0.26": 15, // sunset
-            "0.3": 0, // night
-            "0.5": 0, // midnight
-            "0.75": 15, // day-transition
-            "0.82": 50, // sunrise
-            "0.85": 65, // sunrise
-            "0.92": 70, // day
-            "1.0": 85 // noon
-          }
+            "0.0": [255, 230, 210],  // noon (Màu vàng nhạt, ấm áp)
+            "0.23": [255, 240, 220], // pre-sunset (Giữ màu ấm)
+            "0.24": [255, 200, 180],
+            "0.25": [255, 180, 150],
+            "0.26": [255, 150, 100], // sunset (Hoàng hôn cam đỏ)
+            "0.3": [0, 0, 0],   // night (Tắt)
+            "0.5": [0, 0, 0],   // midnight (Tắt)
+            "0.75": [255, 200, 180], // day-transition (Hơi ấm)
+            "0.82": [255, 240, 220], // sunrise (Bình minh ấm)
+            "0.85": [255, 230, 210],
+            "0.92": [255, 230, 210], // day (Màu ban ngày)
+            "1.0": [255, 230, 210]   // noon (Màu trưa)
         },
         "moon": {
           "illuminance": {
