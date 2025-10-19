@@ -11,26 +11,26 @@
       
       // Tăng CDOM nhẹ để tạo màu xanh đậm/ngọc bích cho nước ở vùng sâu.
       // Giá trị này mô phỏng chất hữu cơ tan trong nước, ảnh hưởng đến màu sắc nước.
-      "cdom": 0.1 
+      "cdom": 0.05 
     },
     "caustics": {
       "enabled": true,
       "frame_length": 0.09,
       "scale": 0.5,
       // Tăng Power để các đốm sáng Caustics dưới đáy rõ ràng và mạnh mẽ hơn.
-      "power": 1.5 
+      "power": 1.2 
     },
     "waves": {
       // Phải BẬT sóng để có gợn sóng và phản xạ tự nhiên trên mặt nước.
       "enabled": true, 
       
       // Tăng Tần số (Frequency) và Độ sâu (Depth) nhẹ để có gợn sóng nhỏ, tự nhiên.
-      "frequency": 2, 
+      "frequency": 1.5, 
       "octaves": 28,
-      "depth": 1.5,
+      "depth": 1.0,
       
       "samplewidth": 0.009999999776482582,
-      "speed": 2,
+      "speed": 1.0,
       
       // Điều chỉnh Shape để sóng nước trông tự nhiên hơn.
       "shape": 1.0, 
