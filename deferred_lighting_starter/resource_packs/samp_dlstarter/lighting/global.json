@@ -8,11 +8,11 @@
       "orbital": {
         "sun": {
           "illuminance": {
-            "0.0": 180, // noon
-            "0.23": 100, // pre-sunset
-            "0.24": 80, // pre-sunset
-            "0.25": 60, // pre-sunset
-            "0.26": 15, // sunset
+            "0.0": , // noon
+            "0.23": 30, // pre-sunset
+            "0.24": 20, // pre-sunset
+            "0.25": 1, // pre-sunset
+            "0.26": 1, // sunset
             "0.3": 0, // night
             "0.5": 0, // midnight
             "0.75": 15, // day-transition
@@ -22,7 +22,7 @@
             "1.0": 180 // noon
           },
           "color": {
-            "0.0": [255, 230, 210],  // noon (Màu vàng nhạt, ấm áp)
+            "0.0": [1.4,0.7,0.3],  // noon (Màu vàng nhạt, ấm áp)
             "0.23": [255, 240, 220], // pre-sunset (Giữ màu ấm)
             "0.24": [255, 200, 180],
             "0.25": [255, 180, 150],
@@ -32,8 +32,8 @@
             "0.75": [255, 200, 180], // day-transition (Hơi ấm)
             "0.82": [255, 240, 220], // sunrise (Bình minh ấm)
             "0.85": [255, 230, 210],
-            "0.92": [255, 230, 210], // day (Màu ban ngày)
-            "1.0": [255, 230, 210]   // noon (Màu trưa)
+            "0.92": [1.4,0.7,0.3], // day (Màu ban ngày)
+            "1.0": [1.4,0.7,0.3]   // noon (Màu trưa)
         },
         "moon": {
           "illuminance": {
@@ -63,7 +63,7 @@
       "illuminance": 0.05
     },
     "sky": {
-      "intensity": 0.3
+      "intensity": 0.2
     }
   }
 }
