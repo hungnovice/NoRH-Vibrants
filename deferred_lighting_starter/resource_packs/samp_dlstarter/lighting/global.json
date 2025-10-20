@@ -13,8 +13,8 @@
             "0.24": 20, // pre-sunset
             "0.25": 1, // pre-sunset
             "0.26": 1, // sunset
-            "0.3": 0, // night
-            "0.5": 0, // midnight
+            "0.3": 0.5, // night
+            "0.5": 0.5, // midnight
             "0.75": 15, // day-transition
             "0.82": 60, // sunrise
             "0.85": 80, // sunrise
