@@ -37,11 +37,11 @@
         },
         "moon": {
           "illuminance": {
-            "0.0": 10, //noon
-             "0.3": 40, //night
-             "0.5": 50, //night
-             "0.7": 40, //sunrise
-             "1.0": 10 //noon
+            "0.0": 0.2, //noon
+             "0.3": 0.2, //night
+             "0.5": 0.2, //night
+             "0.7": 0.2, //sunrise
+             "1.0": 0.2 //noon
           },
           "color": {
             "0.000000": [163, 182, 255],
@@ -63,7 +63,7 @@
       "illuminance": 0.3
     },
     "sky": {
-      "intensity": 0.4
+      "intensity": 0.8
     }
   }
 }
