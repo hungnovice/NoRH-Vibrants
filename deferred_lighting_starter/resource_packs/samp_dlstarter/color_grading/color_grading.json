@@ -32,6 +32,11 @@
         "gamma": [2.53, 2.53, 2.53]
       }
     },
+      "temperature": {
+      "enabled": true,
+      "type": "white_balance",
+      "temperature": 5400.0
+    },
     "tone_mapping": {
       "operator": "aces"
     }
