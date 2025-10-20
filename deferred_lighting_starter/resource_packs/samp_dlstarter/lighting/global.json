@@ -56,7 +56,7 @@
       }
     },
     "emissive": {
-      "desaturation": 0.11
+      "desaturation": 0.2
     },
     "ambient": {
       "color": "128, 163, 255",
