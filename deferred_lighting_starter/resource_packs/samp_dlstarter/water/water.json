@@ -7,17 +7,17 @@
     "particle_concentrations": {
       // Giữ nồng độ hạt thấp để nước trong suốt, có thể nhìn rõ đáy.
       "chlorophyll": 0.0,
-      "suspended_sediment": 0.0,
+      "suspended_sediment": 1.0,
       
       // Tăng CDOM nhẹ để tạo màu xanh đậm/ngọc bích cho nước ở vùng sâu.
       // Giá trị này mô phỏng chất hữu cơ tan trong nước, ảnh hưởng đến màu sắc nước.
-      "cdom": 0.05 
+      "cdom": 0.02 
     },
     "caustics": {
       "enabled": true,
-      "frame_length": 0.09,
+      "frame_length": 0.03,
       "texture": "textures/causticsWater/caustics.png",
-      "scale": 0.5,
+      "scale": 0.4,
       // Tăng Power để các đốm sáng Caustics dưới đáy rõ ràng và mạnh mẽ hơn.
       "power": 1.2 
     },
@@ -26,7 +26,7 @@
       "enabled": true, 
       
       // Tăng Tần số (Frequency) và Độ sâu (Depth) nhẹ để có gợn sóng nhỏ, tự nhiên.
-      "frequency": 1.0, 
+      "frequency": 0.6, 
       "octaves": 20,
       "depth": 0.2,
       
@@ -34,10 +34,11 @@
       "speed": 2.0,
       
       // Điều chỉnh Shape để sóng nước trông tự nhiên hơn.
-      "shape": 1.0, 
+      "shape": 2.0, 
       "pull": 0.3799999952316284,
       "mix": 0.20000000298023224,
       "frequency_scaling": 1.2000000476837158,
+      "direction_increment": 80,
       "speed_scaling": 1.0299999713897705
     }
   }
