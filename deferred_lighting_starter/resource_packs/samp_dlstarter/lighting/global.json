@@ -8,7 +8,7 @@
       "orbital": {
         "sun": {
           "illuminance": {
-            "0.0": ,90 // noon
+            "0.0": 90, // noon
             "0.23": 30, // pre-sunset
             "0.24": 20, // pre-sunset
             "0.25": 1, // pre-sunset
@@ -37,15 +37,15 @@
         },
         "moon": {
           "illuminance": {
-            "0.0": 0.2, //noon
-             "0.3": 0.2, //night
-             "0.5": 0.2, //night
-             "0.7": 0.2, //sunrise
-             "1.0": 0.2 //noon
+            "0.0": 0.4, //noon
+             "0.3": 0.4, //night
+             "0.5": 0.4, //night
+             "0.7": 0.4, //sunrise
+             "1.0": 0.4 //noon
           },
           "color": {
-            "0.000000": [128, 163, 255],
-            "1.000000": [128, 163, 255]
+            "0.000000": [255, 255, 255],
+            "1.000000": [255, 255, 255]
           }
         },
         "orbital_offset_degrees": 0.0
@@ -56,12 +56,38 @@
       }
     },
     "emissive": {
-      "desaturation": 0.2
+      "desaturation": 0.3
     },
     "ambient": {
-      "color": "128, 163, 255",
-      "illuminance": 0.3
-    },
+  "color": {
+    "0.0": [255, 191, 145],  // noon (Màu vàng nhạt, ấm áp)
+    "0.23": [255, 240, 220], // pre-sunset (Giữ màu ấm)
+    "0.24": [255, 200, 180],
+    "0.25": [255, 180, 150],
+    "0.26": [255, 150, 100], // sunset (Hoàng hôn cam đỏ)
+    "0.3": [61, 112, 164],   // night (Tắt)
+    "0.5": [061, 112, 164],   // midnight (Tắt)
+    "0.75": [255, 200, 180], // day-transition (Hơi ấm)
+    "0.82": [255, 240, 220], // sunrise (Bình minh ấm)
+    "0.85": [255, 230, 210],
+    "0.92": [255, 115, 36], // day (Màu ban ngày)
+    "1.0": [255, 191, 145]   // noon (Màu trưa)
+  },
+  "illuminance": {
+    "0.0": ,0.5 // noon
+    "0.23": 0.1, // pre-sunset
+    "0.24": 0.1, // pre-sunset
+    "0.25": 0.1, // pre-sunset
+    "0.26": 0.2, // sunset
+    "0.3": 0.5, // night
+    "0.5": 0.5, // midnight
+    "0.75": 0.4, // day-transition
+    "0.82": 0.2, // sunrise
+    "0.85": 0.2, // sunrise
+    "0.92": 0.4, // day
+    "1.0": 0.5 // noon
+  },
+}
     "sky": {
       "intensity": 0.8
     }
