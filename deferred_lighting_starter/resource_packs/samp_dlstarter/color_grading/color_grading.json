@@ -8,11 +8,11 @@
       "highlights": {
         "highlightsMin": 20,
         "enabled": true,
-        "contrast": [1.1, 1.1, 1.1],
+        "contrast": [1.2, 1.2, 1.2],
         "saturation": [1.04, 1.04, 1.04],
         "gain": [1.2, 1.2, 1.2],
         "offset": [0.0, 0.0, 0.0],
-        "gamma": [2.53, 2.53, 2.53]
+        "gamma": [2.4, 2.4, 2.4]
       },
       "midtones": {
         "midtonesMax": 60,
