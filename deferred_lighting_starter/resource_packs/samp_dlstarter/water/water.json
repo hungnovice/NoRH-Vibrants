@@ -42,17 +42,7 @@
       "speed_scaling": 1.0299999713897705
     },
   "color": {
-  // Màu cơ bản của nước (RGB từ 0–1 hoặc 0–255 tùy engine)
-  "base": [0, 255, 61], // Xanh ngọc nhẹ, trong mát
-  
-  // Màu hấp thụ ánh sáng – nước càng sâu càng ngả xanh đậm
-  "absorption": [0, 255, 61],
-  
-  // Màu phản chiếu ánh sáng – ánh xanh phản quang bề mặt
-  "scattering": [0, 255, 61],
-  
-  // Độ trong suốt (1.0 = hoàn toàn trong suốt)
-  "transparency": 0.7
+      "0.0": [0, 255, 61]
    }
   }
 }
