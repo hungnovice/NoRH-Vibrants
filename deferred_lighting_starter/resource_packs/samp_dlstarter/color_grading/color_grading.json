@@ -1,7 +1,7 @@
 {
   "format_version": "1.21.40",
   "minecraft:color_grading_settings": {
-    "identifier": "novice:default_color_grading",
+    "identifier": "minecraft:default_color_grading",
     "color_grading": {
       "highlights": {
         "highlightsMin": 16,
