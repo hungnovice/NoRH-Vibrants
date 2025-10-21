@@ -2,7 +2,7 @@
   "format_version": "1.21.80",
   "minecraft:water_settings": {
     "description": {
-      "identifier": "minecraft:default_water"
+      "identifier": ":default_water"
     },
     "particle_concentrations": {
       // Giữ nồng độ hạt thấp để nước trong suốt, có thể nhìn rõ đáy.
@@ -11,11 +11,11 @@
       
       // Tăng CDOM nhẹ để tạo màu xanh đậm/ngọc bích cho nước ở vùng sâu.
       // Giá trị này mô phỏng chất hữu cơ tan trong nước, ảnh hưởng đến màu sắc nước.
-      "cdom": 2.0 
+      "cdom": 2.880000114440918
     },
     "caustics": {
       "enabled": true,
-      "frame_length": 0.03,
+      "frame_length": 0.09981999978050589,
       "texture": "textures/causticsWater/caustics.png",
       "scale": 0.10000000149011612,
       // Tăng Power để các đốm sáng Caustics dưới đáy rõ ràng và mạnh mẽ hơn.
@@ -26,9 +26,9 @@
       "enabled": true, 
       
       // Tăng Tần số (Frequency) và Độ sâu (Depth) nhẹ để có gợn sóng nhỏ, tự nhiên.
-      "frequency": 0.6, 
+      "frequency": 0.688730001449585, 
       "octaves": 9,
-      "depth": 0.15,
+      "depth": 0.14100000000000001,
       
       "samplewidth": 0.009999999776482582,
       "speed": 2.0,
@@ -37,8 +37,8 @@
       "shape": 1.0, 
       "pull": 1,
       "mix": 0.20000000298023224,
-      "frequency_scaling": 1.2000000476837158,
-      "direction_increment": 80,
+      "frequency_scaling": 1.0,
+      "direction_increment": 172,
       "speed_scaling": 1.0299999713897705
     }
   }
