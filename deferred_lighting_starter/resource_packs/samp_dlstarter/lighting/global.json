@@ -88,7 +88,7 @@
     "1.0": [255, 115, 36]   // noon (Màu trưa)
   },
   "illuminance": {
-    "0.0": ,0.8 // noon
+    "0.0": 0.8, // noon
     "0.23": 0.04, // pre-sunset
     "0.24": 0.04, // pre-sunset
     "0.25": 0.04, // pre-sunset
