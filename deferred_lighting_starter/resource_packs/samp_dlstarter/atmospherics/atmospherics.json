@@ -132,7 +132,7 @@
   },
 "aurora": [
   {
-    "texture": "textures/environment/aurora_1",
+    "texture": "textures/environment/aurora_1.png",
     "color": [120, 180, 255],
     "intensity": {
       "0.0": 0.0,   // noon
@@ -147,7 +147,7 @@
     "speed": 0.02
   },
   {
-    "texture": "textures/environment/aurora_2",
+    "texture": "textures/environment/aurora_2.png",
     "color": [255, 140, 220],
     "intensity": {
       "0.0": 0.0,
