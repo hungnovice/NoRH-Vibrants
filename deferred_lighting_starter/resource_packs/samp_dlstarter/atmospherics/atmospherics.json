@@ -132,34 +132,48 @@
   },
 "aurora": [
   {
-    "texture": "textures/environment/aurora_1.png",
+    "textures": [
+      "textures/environment/overworld_cubemap/cubemap_0.png",
+      "textures/environment/overworld_cubemap/cubemap_1.png",
+      "textures/environment/overworld_cubemap/cubemap_2.png",
+      "textures/environment/overworld_cubemap/cubemap_3.png",
+      "textures/environment/overworld_cubemap/cubemap_4.png",
+      "textures/environment/overworld_cubemap/cubemap_5.png"
+    ],
     "color": [120, 180, 255],
     "intensity": {
       "0.0": 0.0,   // noon
       "0.25": 0.0,  // sunset
-      "0.35": 0.8,  // bắt đầu đêm
-      "0.5": 1.0,   // giữa đêm sáng nhất
-      "0.65": 1.0,  // nửa đêm
-      "0.75": 0.7,  // gần sáng mờ dần
+      "0.35": 20.6,  // bắt đầu đêm
+      "0.5": 20.0,   // giữa đêm
+      "0.65": 20.0,  // nửa đêm
+      "0.75": 0.5,  // gần sáng
       "0.82": 0.2,  // bình minh
       "1.0": 0.0    // trưa
     },
-    "speed": 0.02
+    "speed": 0.015
   },
   {
-    "texture": "textures/environment/aurora_2.png",
+    "textures": [
+      "textures/environment/overworld_cubemap/cubemap_0.png",
+      "textures/environment/overworld_cubemap/cubemap_1.png",
+      "textures/environment/overworld_cubemap/cubemap_2.png",
+      "textures/environment/overworld_cubemap/cubemap_3.png",
+      "textures/environment/overworld_cubemap/cubemap_4.png",
+      "textures/environment/overworld_cubemap/cubemap_5.png"
+    ],
     "color": [255, 140, 220],
     "intensity": {
       "0.0": 0.0,
       "0.25": 0.0,
-      "0.35": 0.6,
-      "0.5": 0.8,
-      "0.65": 0.8,
+      "0.35": 20.5,
+      "0.5": 20.8,
+      "0.65": 20.8,
       "0.75": 0.5,
       "0.82": 0.2,
       "1.0": 0.0
     },
-    "speed": -0.015
+    "speed": -0.012
   }
 ]
   }
