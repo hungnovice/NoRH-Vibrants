@@ -106,6 +106,26 @@
       "intensity": 0.45
     },
     "aurora": {
-      "textures": "textures/environment/
+      "textures/environment/overworld_cubemap/cubemap_0.png",
+      "textures/environment/overworld_cubemap/cubemap_1.png",
+      "textures/environment/overworld_cubemap/cubemap_2.png",
+      "textures/environment/overworld_cubemap/cubemap_3.png",
+      "textures/environment/overworld_cubemap/cubemap_4.png",
+      "textures/environment/overworld_cubemap/cubemap_5.png"
+      },
+      "intensity": {
+        "0.0": 0.8, // noon
+        "0.23": 0.04, // pre-sunset
+        "0.24": 0.04, // pre-sunset
+        "0.25": 0.04, // pre-sunset
+        "0.26": 0.05, // sunset
+        "0.3": 0.7, // night
+        "0.5": 0.7, // midnight
+        "0.75": 0.1, // day-transition
+        "0.82": 0.1, // sunrise
+        "0.85": 0.1, // sunrise
+        "0.92": 0.8, // day
+        "1.0": 0.8 // noôn
+    }
   }
 }
