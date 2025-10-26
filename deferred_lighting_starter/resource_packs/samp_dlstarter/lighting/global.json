@@ -8,58 +8,59 @@
       "orbital": {
         "sun": {
           "illuminance": {
-            "0.0": 120, // noon
-            "0.23": 30, // pre-sunset
-            "0.24": 20, // pre-sunset
-            "0.25": 10, // pre-sunset
-            "0.26": 10, // sunset
-            "0.3": 0.5, // night
-            "0.5": 0.5, // midnight
-            "0.75": 15, // day-transition
-            "0.82": 60, // sunrise
-            "0.85": 80, // sunrise
-            "0.92": 120, // day
-            "1.0": 120  // noon
+            "0.0": 120,
+            "0.23": 30,
+            "0.24": 20,
+            "0.25": 10,
+            "0.26": 10,
+            "0.3": 0.5,
+            "0.5": 0.5,
+            "0.75": 15,
+            "0.82": 60,
+            "0.85": 80,
+            "0.92": 120,
+            "1.0": 120
           },
           "color": {
-            "0.0": [255, 115, 36],  // noon (Màu vàng nhạt, ấm áp)
-            "0.23": [223, 93, 1], // pre-sunset (Giữ màu ấm)
+            "0.0": [255, 115, 36],
+            "0.23": [223, 93, 1],
             "0.24": [223, 93, 1],
             "0.25": [223, 93, 1],
-            "0.26": [223, 93, 1], // sunset (Hoàng hôn cam đỏ)
-            "0.3": [0, 0, 0],   // night (Tắt)
-            "0.5": [0, 0, 0],   // midnight (Tắt)
-            "0.75": [255, 200, 180], // day-transition (Hơi ấm)
-            "0.82": [255, 240, 220], // sunrise (Bình minh ấm)
+            "0.26": [223, 93, 1],
+            "0.3": [0, 0, 0],
+            "0.5": [0, 0, 0],
+            "0.75": [255, 200, 180],
+            "0.82": [255, 240, 220],
             "0.85": [255, 230, 210],
-            "0.92": [255, 115, 36], // day (Màu ban ngày)
-            "1.0": [255, 115, 36]   // noon (Màu trưa)
+            "0.92": [255, 115, 36],
+            "1.0": [255, 115, 36]
+          }
         },
         "moon": {
           "illuminance": {
-            "0.0": 4.5, //noon
-             "0.3": 4.5, //night
-             "0.5": 4.5, //night
-             "0.7": 4.5, //sunrise
-             "1.0": 4.5 //noon
+            "0.0": 4.5,
+            "0.3": 4.5,
+            "0.5": 4.5,
+            "0.7": 4.5,
+            "1.0": 4.5
           },
           "color": {
-            "0.000000": [0, 15, 229],
-            "1.000000": [0, 15, 229]
+            "0.0": [0, 15, 229],
+            "1.0": [0, 15, 229]
           }
         },
         "orbital_offset_degrees": {
-           "0.5": 330,
-           "0.75": 330,
-           "0.82": 330,
-           "0.93": 310,
-           "0.97": 304,
-           "1.0": 304,
-           "0.03": 304,
-           "0.07": 310,
-           "0.18": 330,
-           "0.25": 330,
-           "0.35": 330 
+          "0.5": 330,
+          "0.75": 330,
+          "0.82": 330,
+          "0.93": 310,
+          "0.97": 304,
+          "1.0": 304,
+          "0.03": 304,
+          "0.07": 310,
+          "0.18": 330,
+          "0.25": 330,
+          "0.35": 330
         }
       },
       "flash": {
@@ -69,63 +70,60 @@
     },
     "emissive": {
       "desaturation": 0.3,
-      "illuminance": 2.5 
-    }
-  },
+      "illuminance": 2.5
+    },
     "ambient": {
-  "color": {
-    "0.0": [255, 115, 36],  // noon (Màu vàng nhạt, ấm áp)
-    "0.23": [223, 93, 1], // pre-sunset (Giữ màu ấm)
-    "0.24": [223, 93, 1],
-    "0.25": [223, 93, 1],
-    "0.26": [223, 93, 1], // sunset (Hoàng hôn cam đỏ)
-    "0.3": [52, 109, 255],   // night (Tắt)
-    "0.5": [52, 109, 255],   // midnight (Tắt)
-    "0.75": [255, 200, 180], // day-transition (Hơi ấm)
-    "0.82": [255, 240, 220], // sunrise (Bình minh ấm)
-    "0.85": [255, 230, 210],
-    "0.92": [255, 115, 36], // day (Màu ban ngày)
-    "1.0": [255, 115, 36]   // noon (Màu trưa)
-  },
-  "illuminance": {
-    "0.0": 0.8, // noon
-    "0.23": 0.04, // pre-sunset
-    "0.24": 0.04, // pre-sunset
-    "0.25": 0.04, // pre-sunset
-    "0.26": 0.05, // sunset
-    "0.3": 0.7, // night
-    "0.5": 0.7, // midnight
-    "0.75": 0.1, // day-transition
-    "0.82": 0.1, // sunrise
-    "0.85": 0.1, // sunrise
-    "0.92": 0.8, // day
-    "1.0": 0.8 // noon
-  },
-}
+      "color": {
+        "0.0": [255, 115, 36],
+        "0.23": [223, 93, 1],
+        "0.24": [223, 93, 1],
+        "0.25": [223, 93, 1],
+        "0.26": [223, 93, 1],
+        "0.3": [52, 109, 255],
+        "0.5": [52, 109, 255],
+        "0.75": [255, 200, 180],
+        "0.82": [255, 240, 220],
+        "0.85": [255, 230, 210],
+        "0.92": [255, 115, 36],
+        "1.0": [255, 115, 36]
+      },
+      "illuminance": {
+        "0.0": 0.8,
+        "0.23": 0.04,
+        "0.24": 0.04,
+        "0.25": 0.04,
+        "0.26": 0.05,
+        "0.3": 0.7,
+        "0.5": 0.7,
+        "0.75": 0.1,
+        "0.82": 0.1,
+        "0.85": 0.1,
+        "0.92": 0.8,
+        "1.0": 0.8
+      }
+    },
     "sky": {
       "intensity": 0.45
     },
     "aurora": {
-      "textures/environment/overworld_cubemap/cubemap_0.png",
-      "textures/environment/overworld_cubemap/cubemap_1.png",
-      "textures/environment/overworld_cubemap/cubemap_2.png",
-      "textures/environment/overworld_cubemap/cubemap_3.png",
-      "textures/environment/overworld_cubemap/cubemap_4.png",
-      "textures/environment/overworld_cubemap/cubemap_5.png"
-      },
+      "textures": [
+        "textures/environment/overworld_cubemap/cubemap_0.png",
+        "textures/environment/overworld_cubemap/cubemap_1.png",
+        "textures/environment/overworld_cubemap/cubemap_2.png",
+        "textures/environment/overworld_cubemap/cubemap_3.png",
+        "textures/environment/overworld_cubemap/cubemap_4.png",
+        "textures/environment/overworld_cubemap/cubemap_5.png"
+      ],
       "intensity": {
-        "0.0": 0.8, // noon
-        "0.23": 0.04, // pre-sunset
-        "0.24": 0.04, // pre-sunset
-        "0.25": 0.04, // pre-sunset
-        "0.26": 0.05, // sunset
-        "0.3": 0.7, // night
-        "0.5": 0.7, // midnight
-        "0.75": 0.1, // day-transition
-        "0.82": 0.1, // sunrise
-        "0.85": 0.1, // sunrise
-        "0.92": 0.8, // day
-        "1.0": 0.8 // noôn
+        "0.0": 0.0,
+        "0.23": 0.0,
+        "0.35": 0.6,
+        "0.5": 1.0,
+        "0.65": 1.0,
+        "0.75": 0.4,
+        "0.82": 0.0,
+        "1.0": 0.0
+      }
     }
   }
 }
