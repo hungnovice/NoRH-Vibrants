@@ -104,6 +104,8 @@
 }
     "sky": {
       "intensity": 0.45
-    }
+    },
+    "aurora": {
+      "textures": "textures/environment/
   }
 }
