@@ -2,7 +2,6 @@
   "format_version": "1.21.40",
   "minecraft:atmosphere_settings": {
     "description": { "identifier": "minecraft:default_atmospherics" },
-
     "sky_zenith_color": {
       "0.0": [57, 90, 141],
       "0.256": [130, 66, 19],
@@ -17,7 +16,6 @@
       "0.92": [57, 90, 141],
       "1.0": [57, 90, 141]
     },
-
     "sky_horizon_color": {
       "0.0": [109, 165, 202],
       "0.256": [223, 93, 1],
@@ -32,7 +30,6 @@
       "0.92": [109, 165, 202],
       "1.0": [109, 165, 202]
     },
-
     "horizon_blend_stops": {
       "min": {
         "0.67": 0.21,
@@ -91,7 +88,6 @@
         "0.60": 0.2
       }
     },
-
     "rayleigh_strength": {
       "0.0": 1.0,
       "0.23": 0.5,
@@ -106,7 +102,6 @@
       "0.92": 1.0,
       "1.0": 1.0
     },
-
     "sun_mie_strength": {
       "0.0": 3.0,
       "0.19": 3.2,
@@ -119,12 +114,10 @@
       "0.75": 2.5,
       "0.81": 3.0
     },
-
     "moon_mie_strength": {
       "0.0": 2.5,
       "1.0": 2.5
     },
-
     "sun_glare_shape": {
       "0.0": 5.0,
       "0.19": 5.0,
@@ -136,31 +129,6 @@
       "0.7074999809265137": 5.0,
       "0.75": 5.0,
       "0.81": 5.0
-    },
-
-    "aurora": [
-      {
-        "textures": [
-          "textures/environment/overworld_cubemap/cubemap_0.png",
-          "textures/environment/overworld_cubemap/cubemap_1.png",
-          "textures/environment/overworld_cubemap/cubemap_2.png",
-          "textures/environment/overworld_cubemap/cubemap_3.png",
-          "textures/environment/overworld_cubemap/cubemap_4.png",
-          "textures/environment/overworld_cubemap/cubemap_5.png"
-        ],
-        "color": [120, 180, 255],
-        "intensity": {
-          "0.0": 0.0,
-          "0.25": 0.0,
-          "0.35": 1.6,
-          "0.5": 1.0,
-          "0.65": 1.0,
-          "0.75": 0.5,
-          "0.82": 0.2,
-          "1.0": 0.0
-        },
-        "speed": 0.015
-      }
-    ]
+    }
   }
 }
