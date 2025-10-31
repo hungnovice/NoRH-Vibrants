@@ -103,8 +103,6 @@
     },
     "sky": {
       "intensity": 0.45
-    },
-    "aurora": {
       "textures": {
         "textures/environment/overworld_cubemap/cubemap_0.png",
         "textures/environment/overworld_cubemap/cubemap_1.png",
