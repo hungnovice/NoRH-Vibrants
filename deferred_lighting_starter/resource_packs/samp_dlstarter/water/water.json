@@ -5,7 +5,7 @@
       "identifier": "minecraft:default_water"
     },
     "particle_concentrations": {
-      "chlorophyll": 0.05,
+      "chlorophyll": 0.0,
       "suspended_sediment": 0.0,
       "cdom": 0.0
     },
@@ -23,7 +23,7 @@
       "depth": 0.14100000000000001,
       "samplewidth": 0.009999999776482582,
       "speed": 2.0,
-      "shape": 2.0, 
+      "shape": 2.1, 
       "pull": 0.7,
       "mix": 0.20000000298023224,
       "frequency_scaling": 1.0,
