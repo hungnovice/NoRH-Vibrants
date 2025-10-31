@@ -13,7 +13,7 @@
       "enabled": true,
       "frame_length": 0.09981999978050589,
       "texture": "textures/causticsWater/caustics.png",
-      "scale": 0.24,
+      "scale": 0.18,
       "power": 3.0 
     },
     "waves": {
