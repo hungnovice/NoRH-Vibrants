@@ -19,7 +19,7 @@
     "waves": {
       "enabled": true, 
       "frequency": 0.688730001449585, 
-      "octaves": 5,
+      "octaves": 10,
       "depth": 0.14100000000000001,
       "samplewidth": 0.009999999776482582,
       "speed": 2.0,
