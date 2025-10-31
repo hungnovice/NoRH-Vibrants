@@ -6,7 +6,7 @@
     },
     "particle_concentrations": {
       // Giữ nồng độ hạt thấp để nước trong suốt, có thể nhìn rõ đáy.
-      "chlorophyll": 0.0,
+      "chlorophyll": 0.012,
       "suspended_sediment": 1.0,
       
       // Tăng CDOM nhẹ để tạo màu xanh đậm/ngọc bích cho nước ở vùng sâu.
