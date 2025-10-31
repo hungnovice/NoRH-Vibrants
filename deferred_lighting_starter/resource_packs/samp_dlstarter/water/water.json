@@ -17,9 +17,9 @@
       "enabled": true,
       "frame_length": 0.09981999978050589,
       "texture": "textures/causticsWater/caustics.png",
-      "scale": 0.10000000149011612,
+      "scale": 0.17,
       // Tăng Power để các đốm sáng Caustics dưới đáy rõ ràng và mạnh mẽ hơn.
-      "power": 2.0 
+      "power": 1.0 
     },
     "waves": {
       // Phải BẬT sóng để có gợn sóng và phản xạ tự nhiên trên mặt nước.
