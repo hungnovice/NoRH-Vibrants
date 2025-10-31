@@ -1,38 +1,34 @@
 {
-  "format_version": "1.21.80",
-  "minecraft:water_settings": {
-    "description": {
-      "identifier": "minecraft:default_water"
-    },
-    "particle_concentrations": {
-      "chlorophyll": 0.0,
-      "suspended_sediment": 0.0,
-      "cdom": 0.9
-    },
-    "caustics": {
-      "enabled": true,
-      "frame_length": 0.09981999978050589,
-      "texture": "textures/causticsWater/caustics.png",
-      "scale": 0.18,
-      "power": 3.0 
-    },
-    "waves": {
-      "enabled": true, 
-      "frequency": 0.688730001449585, 
-      "octaves": 15,
-      "depth": 0.14100000000000001,
-      "samplewidth": 0.009999999776482582,
-      "speed": 2.0,
-      "shape": 2.1, 
-      "pull": 0.7,
-      "mix": 0.20000000298023224,
-      "frequency_scaling": 1.0,
-      "direction_increment": 170,
-      "speed_scaling": 0.8
-    },
-  "color": {
-      "0.0": [0, 255, 61],
-      "1.0": [0, 255, 61]
-   }
-  }
+    "format_version": "1.21.80",
+    "minecraft:water_settings": {
+        "description": {
+            "identifier": "minecraft:default_water"
+        },
+        "particle_concentrations": {
+            "chlorophyll": 0.012,
+            "suspended_sediment": 0,
+            "cdom": 0.3
+        },
+        "caustics": {
+            "enabled": true,
+            "frame_length": 0.028,
+            "texture": "textures/causticsWater/caustics.png",
+            "scale": 0.18,
+            "power": 3
+        },
+        "waves": {
+            "enabled": true,
+            "depth": 0.16,
+            "frequency": 0.77,
+            "frequency_scaling": 1.228,
+            "mix": 0.26,
+            "octaves": 14,
+            "pull": 0.49,
+            "sampleWidth": 0.01,
+            "shape": 5.0,
+            "speed": 3.4,
+            "direction_increment": 170.0,
+            "speed_scaling": 0.74
+        }
+    }
 }
