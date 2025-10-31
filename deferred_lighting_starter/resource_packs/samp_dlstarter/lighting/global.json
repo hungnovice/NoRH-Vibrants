@@ -61,7 +61,6 @@
           "0.18": 330,
           "0.25": 330,
           "0.35": 330
-        }
       },
       "flash": {
         "illuminance": 30.0,
@@ -106,14 +105,14 @@
       "intensity": 0.45
     },
     "aurora": {
-      "textures": [
+      "textures": {
         "textures/environment/overworld_cubemap/cubemap_0.png",
         "textures/environment/overworld_cubemap/cubemap_1.png",
         "textures/environment/overworld_cubemap/cubemap_2.png",
         "textures/environment/overworld_cubemap/cubemap_3.png",
         "textures/environment/overworld_cubemap/cubemap_4.png",
         "textures/environment/overworld_cubemap/cubemap_5.png"
-      ],
+      },
       "intensity": {
         "0.0": 0.0,
         "0.23": 0.0,
