@@ -72,8 +72,8 @@
       "desaturation": 0.3,
     },
     "ambient": {
-      "illuminance": 0.04,
-      "color": [150, 130, 130]
+      "illuminance": 0.06,
+      "color": [93, 149, 169]
     },
     "sky": {
       "intensity": 0.35
