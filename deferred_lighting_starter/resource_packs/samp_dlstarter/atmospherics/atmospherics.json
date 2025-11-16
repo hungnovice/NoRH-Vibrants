@@ -3,7 +3,7 @@
   "minecraft:atmosphere_settings": {
     "description": { "identifier": "minecraft:default_atmospherics" },
     "sky_zenith_color": {
-      "0.0": [57, 90, 141], //noon
+      "0.0": [23, 77, 112], //noon
       "0.256": [130, 66, 19], //sunset
       "0.3": [130, 66, 19],   //sunset
       "0.335": [130, 66, 19], //sunset
@@ -13,8 +13,8 @@
       "0.75": [74, 111, 165], //day-transition
       "0.82": [74, 111, 165], // sunrise
       "0.85": [74, 111, 165], //sunrise
-      "0.92": [57, 90, 141], //day
-      "1.0": [57, 90, 141] //noon
+      "0.92": [23, 77, 112], //day
+      "1.0": [23, 77, 112] //noon
     },
     "sky_horizon_color": {
       "0.0": [109, 165, 202],
