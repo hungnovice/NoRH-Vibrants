@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:pbr_fallback_settings": {
     "blocks": {
-      "global_metalness_emissive_roughness_subsurface": [30, 0, 255, 0]
+      "global_metalness_emissive_roughness_subsurface": [255, 100, 255, 0]
     },
     "actors": {
       "global_metalness_emissive_roughness_subsurface": [10, 0, 255, 32]
