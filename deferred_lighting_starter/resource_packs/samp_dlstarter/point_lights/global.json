@@ -3,7 +3,7 @@
     "minecraft:point_light_settings": {
 		"colors":{
             "minecraft:portal":[50, 30, 255],
-            "minecraft:soul_lantern":[95,165,235],
+            "minecraft:soul_lantern":[66, 231, 234],
             "minecraft:brown_candle":[100,61,33],
             "minecraft:pink_candle":[197,89,131],
             "minecraft:cave_vines_head_with_berries":[201,72,10],
@@ -41,7 +41,7 @@
             "minecraft:glowstone":[251,218,116],
             "minecraft:magenta_candle":[156,40,148],
             "minecraft:green_candle":[63,83,18],
-            "minecraft:soul_fire":[33, 45, 255],
+            "minecraft:soul_fire":[66, 231, 234],
             "minecraft:lantern":[255,81,10],
             "minecraft:large_amethyst_bud":[100,71,158],
             "minecraft:light_blue_candle":[32,133,197],
@@ -64,7 +64,7 @@
             "minecraft:redstone_block":[255,0,0],
             "minecraft:respawn_anchor":[131,8,228],
             "minecraft:sea_lantern":[0,255,255],
-            "minecraft:soul_torch":[10,80,155],
+            "minecraft:soul_torch":[66, 231, 234],
             "minecraft:torch":[109,25,15],
             "minecraft:trial_spawner":[255,106,0],
             "minecraft:waxed_weathered_copper_bulb":[199,124,74],
