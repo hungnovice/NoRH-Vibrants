@@ -73,7 +73,7 @@
     },
     "ambient": {
       "illuminance": 0.06,
-      "color": [93, 149, 169]
+      "color": [243, 147, 14]
     },
     "sky": {
       "intensity": 0.45
